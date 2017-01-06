@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+      <link rel="stylesheet" href="bootstrap/css/loginstyle.css">
+      <link rel="stylesheet" href="bootstrap/animatecss/animate.css">
+      
+      <style type="text/css">
+	  	.box select 
+		{
+			display: block;
+			margin-left: 35px;
+			margin: 20px auto;
+			padding: 15px;
+			background: rgba(0,0,0,0.2);
+			color: #fff;
+			border: 0;
+		}
+		.a1
+		{
+			margin-left: 35px;
+			margin-bottom:12px;
+			margin: 20px auto;
+			padding: 15px;
+			background: rgba(0,0,0,0.2);
+			color: #fff;
+			border: 0;
+			
+		}
+		
+      </style>
+</head>
+  <body>
+    <div class="vid-container">
+      <video id="Video1" class="bgvid back" autoplay="false" muted="muted" preload="auto" loop>
+          <source src="bootstrap/milky-way-river-1280hd.mp4.mp4" type="video/mp4">
+      </video>
+    <div class="inner-container">
+    <video id="Video2" class="bgvid inner" autoplay="false" muted="muted" preload="auto" loop>
+      <source src="bootstrap/milky-way-river-1280hd.mp4.mp4" type="video/mp4">
+    </video>
+    <form action="lgn">
+    <div class="box zoomOutUp butt">
+      <h1>Login</h1>
+      <input  type="text" placeholder="Username" name="emailid"/>
+      <input type="text" placeholder="Password" name="password"/>
+      <select name="opt">
+      	<option> Admin</option>
+        <option> HR</option>
+        <option> Sales</option>
+      	<option> Finanace</option>
+      </select>
+      <button type="submit">Login</button>
+      <p> <span><a class="a1" href="register.jsp"> Sign Up </a></span></p>
+     </div></form>
+    </div>
+  </div>
+</div>
+    <script src='bootstrap/jquery/jquery.min.js'></script>
+	<script src='bootstrap/jquery/jquery-1.10.2.min.js'></script>
+    
+        <script src="bootstrap/js/loginindex.js"></script>
+  </body>
+</html>
